@@ -1,0 +1,48 @@
+/* h1{
+    text-align:center;
+}
+h2{
+   
+    text-align:justify;
+} */
+
+/* front weight */
+
+h2{
+    font-weight:800;
+}
+
+p{
+    font-weight:100;
+    line-height:2.5;
+    font-size:20px;
+    font-family:Impact;
+}
+
+h1{
+    font-weight:lighter;
+    text-decoration:rgb(54, 219, 122) underline;
+}
+
+/* text decoration */
+
+h1{
+    /* text-decoration:underline;
+    text-decoration:overline; */
+    text-decoration:red double overline;
+    letter-spacing:5px;
+
+}
+h2{
+    text-decoration:overline;
+} 
+
+/* text decoration */
+
+h2{
+    text-decoration:dotted underline;
+}
+
+a{
+    text-decoration:none;
+}
