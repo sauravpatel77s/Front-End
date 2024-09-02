@@ -1,0 +1,23 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(33, 101, 157);
+    display:flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: space-around;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(80, 78, 80);
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px  2px 2px; 
+
+
+}
