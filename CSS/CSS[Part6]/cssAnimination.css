@@ -1,0 +1,44 @@
+.box{
+    height: 100px;
+    width: 400px;
+   background-color: pink;
+
+    animation-name:  cAnimation;
+    animation-duration: 4s;
+    animation-timing-function:ease-in ;
+    animation-delay: 0s;
+    animation-iteration-count:2;
+    /* animation-direction:normal; */
+    animation-direction: normal;
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size:20px;
+    }
+    to {
+        font-size:40px;
+    }
+}
+
+@keyframes colorAnimation {
+    from{
+        background-color: rgb(210, 192, 255);
+    }
+    to{
+        background-color: green;
+    }
+}
+
+@keyframes cAnimation {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow;
+    }
+    
+}

@@ -1,0 +1,54 @@
+#first{
+    background-color: bisque;
+    height: 20px;
+    width: 1100px;
+}
+.second{
+    background-color: bisque;
+    height: 200px;
+    width:300px;
+    display:flex;
+}
+#a{
+    height: 200px;
+    width: 270px;
+    background-color: bisque;
+   
+    margin-right: 10px;
+}
+.third{
+    display: flex;
+}
+.fourth{
+    display: grid;
+    row-gap: 10px;
+   
+}
+
+#irst{
+  
+    width: 540px;
+    background-color: bisque;
+  
+    
+}
+#econd{
+    
+     height: 180px;
+     width: 540px;
+     background-color: bisque;
+}
+#seven{
+  
+    height: 200px;
+    width:300px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+
+.eight{
+    height: 20px;
+    width: 1100px;
+    background-color: bisque;
+
+}
